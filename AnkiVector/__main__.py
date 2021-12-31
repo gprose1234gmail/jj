@@ -64,30 +64,30 @@ from AnkiVector.modules.helper_funcs.misc import paginate_modules
 from AnkiVector.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = f"""
-*Hellow There, I'm Anki Vector 🍑
+*Hellow There, I'm LUNA 🍑
 
-I'm a Powerfull group manager bot With Cool Modules. Made My @TeamAnkiVector
+I'm a Powerfull group manager bot With Cool Modules. Made My @MISSHARELYLUNA
 hit /help to Find my list of available commands 🕹*
 """
 
 buttons = [
     [
-        InlineKeyboardButton(text="📌Updates Channel", url="https://t.me/ankivectorUpdates"),
-        InlineKeyboardButton(text="🖲 Support Group", url="https://t.me/AnkiSupport_Official"),
+        InlineKeyboardButton(text="📌Updates Channel", url="https://t.me/luna_officials"),
+        InlineKeyboardButton(text="🖲 Support Group", url="https://t.me/lunasupportz"),
     ],
     [
-        InlineKeyboardButton(text="📜 Source Code", url="https://www.youtube.com/watch?v=fXXEcAkWAFU"),
+        InlineKeyboardButton(text="📜 luna network", url="https://t.me/MISSHARELYLUNA"),
         InlineKeyboardButton(text="❔ Help", callback_data="help_back"),
     ],
     [
         InlineKeyboardButton(
-            text="➕ Add Anki Vector To Youre Group ➕", url="t.me/TheAnkiVectorbot?startgroup=true"
+            text="➕ Add Anki Vector To Youre Group ➕", url="t.me/Missharelyluna_bot?startgroup=true"
         ),
     ],
 ]
 
 
-ANKIVECTOR_STICKER = "CAACAgUAAxkBAAEEwKthkPVBp6d5T4S3dlYZM3L8BkXRNAACOAQAAryviVQbCLI09PvjAAEiBA"
+ANKIVECTOR_STICKER = "https://telegra.ph/file/1a037c8c3eca8ddcd9dfe.jpg"
 
 HELP_STRINGS = f"""
 *Main Commands :* 🤖
@@ -106,7 +106,7 @@ HELP_STRINGS = f"""
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 You can donate to the original writer's of the Base code,
-Support them  [Damantha Jasinghe](t.me/Damantha_Jasinghe)"""
+Support them [luna](https://t.me/Missharelyluna_bot)"""
 
 IMPORTED = {}
 MIGRATEABLE = []
